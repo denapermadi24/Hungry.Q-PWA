@@ -1,0 +1,36 @@
+/** banner */
+
+.hero {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-image: url("../public/image/hero-image_4.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px ;
+  }
+  
+  .hero_inner {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .hero_title {
+    font-family: 'Italianno', cursive;
+    color: #FDD017;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 90px;
+    text-shadow: 1px 1px #141414;
+  }
+  .hero_subtitle {
+    color: #fff;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px #141414;
+  }

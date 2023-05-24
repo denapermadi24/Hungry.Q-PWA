@@ -1,0 +1,36 @@
+/** HEADER */
+
+.header {
+	color: #fff;
+	background-color: #000000;
+	border-bottom: 1px solid #FDD017;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	padding: 20px 30px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 99;
+	position: fixed;
+}
+
+.header__title {
+	margin: 0;
+	font-size: 50px;
+	color: #FDD017;
+	font-family: 'Italianno', cursive;
+}
+
+.header__menu,
+.close__menu {
+	display: none;
+	border: 0;
+	background-color: transparent;
+	font-size: 24px;
+	min-width: 44px;
+	min-height: 44px;
+}
+
+.close__menu {
+	font-size: 44px;
+}
